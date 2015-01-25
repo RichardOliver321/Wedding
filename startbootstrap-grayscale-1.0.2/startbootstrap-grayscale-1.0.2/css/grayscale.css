@@ -21,7 +21,7 @@ html {
 .infoWindow
 {
 
-color: #000000;
+    color: #000000;
 }
 .mapDiv
 {
@@ -29,31 +29,26 @@ color: #000000;
     text-align: center;
     padding: 1px;
     margin: 0 auto;
-    
+
 }
 
-
-h2 
-{
-    font-size: 42px;
-    font-family: 'Pinyon Script', cursive;
-    letter-spacing: 1px;
-    color: #757575;
-}
 
 h3 {
     font-size: 24px;
+    //font-family: 'Homemade Apple', cursive;
     font-family: 'Pinyon Script', cursive;
     letter-spacing: 1px;
-    color: #757575;
+    color: #B2B2B2;
 }
 
 h1,
 h4,
 h5,
 h6 {
-    font-family: 'Pinyon Script', cursive;
+
     letter-spacing: 1px;
+    //font-family: 'Homemade Apple', cursive;
+     font-family: 'Pinyon Script', cursive;
 }
 
 p {
@@ -91,16 +86,20 @@ a:focus {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     <!--text-transform: uppercase;-->
-    font-family: 'Droid Serif', serif;
-    font-size: 24px;
+    font-family: 'Pinyon Script', cursive;
+    font-size: 16px;
     color: #c3fbf4;
     background-color: #000;
 }
 
 .header
 {
-    font-size: 42px;
-    color:#757575;
+
+    font-size: 32px;
+    //font-family: 'Homemade Apple', cursive;
+     font-family: 'Pinyon Script', cursive;
+    letter-spacing: 1px;
+    color: #B2B2B2;
 }
 
 .Text
@@ -112,7 +111,6 @@ a:focus {
 .MapContainer
 {
     text-align: center;
-    background: url(../img/wall2.jpg) no-repeat center;
     margin: 0 auto;
 
 }
@@ -141,8 +139,8 @@ a:focus {
 }
 
 .navbar-custom .nav li.active {
-    outline: nonte;
-    background-color: rgba(255,255,255,.3);
+    outline: none;
+    //background-color: rgba(255,255,255,.3);
 }
 
 .navbar-custom .nav li a {
@@ -171,11 +169,11 @@ a:focus {
 
     .top-nav-collapse {
         padding: 0;
-        background-color: #000;
+        background-color: #B2B2B2;
     }
 
     .navbar-custom.top-nav-collapse {
-        border-bottom: 1px solid rgba(255,255,255,.3);
+        //border-bottom: 1px solid rgba(255,255,255,.3);
     }
 }
 
@@ -196,11 +194,16 @@ a:focus {
 
 .intro .intro-body {
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: bottom;
 }
 
 .intro .intro-body .brand-heading {
     font-size: 40px;
+    color: #c3fbf4;
+    margin-top: 50px;
+    <!--font-family: 'Sarina', cursive;-->
+    font-family: 'Dancing Script', cursive;
+
 
 }
 
@@ -210,8 +213,8 @@ a:focus {
     font-size: 40px;
     color:#66FFFF;
     font-family: 'Pinyon Script', cursive;
-    
-    
+
+
 }
 
 .intro .intro-body {
@@ -242,7 +245,7 @@ a:focus {
     border-radius: 35px;
     font-size: 40px;
     color: #fff;
-   <!-- background: 0 0;-->
+    <!-- background: 0 0;-->
     background: #fff;
     <!--background: url(../img/heart.png);-->
     -webkit-transition: background .3s ease-in-out;
@@ -394,6 +397,7 @@ ul.banner-social-buttons {
 
 footer {
     padding: 50px 0;
+    color:#888888;
 }
 
 footer p {
@@ -427,46 +431,45 @@ body {
 /* RSVP */
 
 .rsvp{
-	text-align:center;
-        font-size: 20px;
-        
-        
+    text-align:center;
+    font-size: 20px;
+
+
 }
 
-.rsvp i{
-	font-size:120px;
-	color:#ed4934;
-}
+
 
 .rsvp .well{
-	padding:20px;
-        color:#000;
-        background:#B2B2B2;
-        <!--background: url(../img/wall1.png);-->
+    padding:20px;
+    color:#000;
+    <!--background:#B2B2B2;-->
+    background: url(../img/text-swirl.png);
+    height: 250px;
+    width:500px;
 }
 
 .rsvp .well p{
-	font-family: 'Droid Serif', serif;
-	font-style:italic;
-	font-size:20px;
-	color:#666;
-	line-height:25px;
-	padding-bottom:20px;
-	text-align:center;
+    font-family: 'Droid Serif', serif;
+    font-style:italic;
+    font-size:20px;
+    color:#666;
+    line-height:25px;
+    padding-bottom:20px;
+    text-align:center;
 }
 
 .rsvp .well label{
-	font-weight:normal;
-        font-family: 'Pinyon Script', cursive;
+    font-weight:normal;
+    font-family: 'Pinyon Script', cursive;
 }
 
 .rsvp .well .btn{
-	text-transform:uppercase;
-	font-weight:bold;
-	font-size:13px;
-        background: #c3fbf4;
-        border-color: #bbf1ea;
-        color:#757575;
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size:13px;
+    background: #c3fbf4;
+    border-color: #bbf1ea;
+    color:#757575;
 }
 
 .details{
@@ -477,5 +480,7 @@ body {
 .details p{
     color: #000;
     font-family: 'Droid Serif', serif;
+    //font-family: 'Homemade Apple', cursive;
+    // font-family: 'Pinyon Script', cursive;
     font-size: 16px; 
 }
