@@ -247,7 +247,6 @@ a:focus {
     color: #fff;
     <!-- background: 0 0;-->
     background: #fff;
-    <!--background: url(../img/heart.png);-->
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
@@ -442,8 +441,7 @@ body {
 .rsvp .well{
     padding:20px;
     color:#000;
-    <!--background:#B2B2B2;-->
-    background: url(../img/text-swirl.png);
+    background: url(../img/wall5.jpg);
     height: 250px;
     width:500px;
 }
@@ -483,4 +481,40 @@ body {
     //font-family: 'Homemade Apple', cursive;
     // font-family: 'Pinyon Script', cursive;
     font-size: 16px; 
+}
+
+//counter
+#countdown {
+  color: #888888;
+  font-size: 42px;
+}
+
+#countdown span {
+  color: #000;
+  font-size: 26px;
+  font-weight: normal;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+.timer {
+
+   color: #888888;
+}
+
+.white-heart {
+
+   color: #fff;
+}
+
+.grey-border{
+   border: 3px dotted #888888;
+   padding: 0;
+}
+
+form{
+
+  //background: url(../img/wall1.png);
+  background: 0;
+
 }
