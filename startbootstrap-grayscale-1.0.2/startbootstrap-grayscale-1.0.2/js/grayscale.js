@@ -1,8 +1,3 @@
-/*!
- * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
 
 // jQuery to collapse the navbar on scroll
 $(window).scroll(function () {
@@ -178,7 +173,7 @@ function init() {
 }
 
 // set the date we're counting down to
-var target_date = new Date('Dec, 15, 2015').getTime();
+var target_date = new Date('Dec, 12, 2015').getTime();
 
 // variables for time units
 var days, hours, minutes, seconds;
@@ -214,16 +209,35 @@ setInterval(function () {
     //countdown.innerHTML = '<a><i class="fa fa-3x timer">' + days + '</i></a><a><i class="fa fa-heart fa-3x timer">' + hours + '</i></a><a><i class="fa fa-heart fa-3x timer">' + seconds + '</i></a>' +
     //        '</br><span class="timer">Days</span><span class="timer">Hours</span><span class="timer">Seconds</span>';
 
-    countdown.innerHTML = '<div class="row text-center timer"><div class="col-lg-1"></div>'+
-            '<a class="header col-lg-2">' +
-            '<i class="fa">' + days + '</i><h2>Days</h2></a>'+
-            '<a class="header col-lg-2">' +
-            '<i class="fa fa-heart white-heart"></i></a>'+
-            '<a class="header col-lg-2">'+
-            '<i class="fa">' + hours + '</i><h2 class="header">Hours</h2></a>'+
-            '<a class="header col-lg-2">' +
-            '<i class="fa fa-heart white-heart"></i></a>'+'<a class="header col-lg-2">'+
-            '<i class="fa">' + seconds + '</i><h2 class="header">Seconds</h2></a>'+'<div class="col-lg-1"></div></div>';
+    countdown.innerHTML = '<div class="row text-center timer">'+
+                '<div class="row col-lg-1"></div>'+
+                '<div class="row">' +
+                '<a class="header col-lg-2">' +
+                '<i class="fa">' + days + '</i><h2>Days</h2></a>'+
+                '<div>' +
+
+                '<div class="row">' +
+                '<a class="header col-lg-2">' +
+                '<i class="fa fa-heart white-heart"></i></a>'+
+                '<div>' +
+                
+                '<div class="row">' +
+                '<a class="header col-lg-2">'+
+                '<i class="fa">' + hours + '</i><h2 class="header">Hours</h2></a>'+
+                '<div>' +
+                
+                '<div class="row">' +
+                '<a class="header col-lg-2">' +
+                '<i class="fa fa-heart white-heart"></i></a>'+
+                '<div>' +
+                
+                 '<div class="row">' +
+                '<a class="header col-lg-2">'+
+                '<i class="fa">' + seconds + '</i><h2 class="header">Seconds</h2></a>'+
+                '<div>' +
+                
+                '<div class="row col-lg-1"></div>' +
+                '</div>';
 
 
 }, 1000);

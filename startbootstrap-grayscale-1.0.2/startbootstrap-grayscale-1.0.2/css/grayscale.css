@@ -23,15 +23,14 @@ html {
 
     color: #000000;
 }
+
 .mapDiv
 {
     box-shadow: 5px 5px 5px #888888;
     text-align: center;
     padding: 1px;
     margin: 0 auto;
-
 }
-
 
 h3 {
     font-size: 24px;
@@ -48,13 +47,45 @@ h6 {
 
     letter-spacing: 1px;
     //font-family: 'Homemade Apple', cursive;
-     font-family: 'Pinyon Script', cursive;
+    font-family: 'Pinyon Script', cursive;
 }
 
 p {
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
+}
+.border1{
+    width:100%;
+    height:10%;
+    background: url(../img/heartborder3.png) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.address-background{
+    background: url(../img/heart-on-a-line-border.png) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.address{
+    font-size: 18px;
+    color: #5b5b5b;
+    border-collapse: separate;
+    border-spacing: 20px 0px;
+} 
+.address th{
+    text-align: left;
+    padding: 10px 15px;
+}
+
+.address td{
+    text-align: left;
+    padding: 10px 15px;
 }
 
 @media(min-width:767px) {
@@ -84,12 +115,12 @@ a:focus {
 
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3);
+    border-bottom: 0px solid rgba(255,255,255,.3);
     <!--text-transform: uppercase;-->
     font-family: 'Pinyon Script', cursive;
     font-size: 16px;
     color: #c3fbf4;
-    background-color: #000;
+    background-color: #B2B2B2;
 }
 
 .header
@@ -97,7 +128,7 @@ a:focus {
 
     font-size: 32px;
     //font-family: 'Homemade Apple', cursive;
-     font-family: 'Pinyon Script', cursive;
+    font-family: 'Pinyon Script', cursive;
     letter-spacing: 1px;
     color: #B2B2B2;
 }
@@ -174,7 +205,9 @@ a:focus {
 
     .navbar-custom.top-nav-collapse {
         //border-bottom: 1px solid rgba(255,255,255,.3);
+        /*background-color: #B2B2B2;*/
     }
+
 }
 
 .intro {
@@ -184,7 +217,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/main.jpg) no-repeat bottom center scroll;
+    background: url(../img/main6.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -436,8 +469,6 @@ body {
 
 }
 
-
-
 .rsvp .well{
     padding:20px;
     color:#000;
@@ -471,12 +502,12 @@ body {
 }
 
 .details{
-    color: #000;
+    color: #5b5b5b;
     font-size: 28px; 
 }
 
 .details p{
-    color: #000;
+    color: #5b5b5b;
     font-family: 'Droid Serif', serif;
     //font-family: 'Homemade Apple', cursive;
     // font-family: 'Pinyon Script', cursive;
@@ -485,36 +516,36 @@ body {
 
 //counter
 #countdown {
-  color: #888888;
-  font-size: 42px;
+    color: #888888;
+    font-size: 42px;
 }
 
 #countdown span {
-  color: #000;
-  font-size: 26px;
-  font-weight: normal;
-  margin-left: 20px;
-  margin-right: 20px;
-  text-align: center;
+    color: #000;
+    font-size: 26px;
+    font-weight: normal;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
 }
 .timer {
 
-   color: #888888;
+    color: #888888;
 }
 
 .white-heart {
 
-   color: #fff;
+    color: #888888;
 }
 
 .grey-border{
-   border: 3px dotted #888888;
-   padding: 0;
+    border: 3px dotted #888888;
+    padding: 0;
 }
 
 form{
 
-  //background: url(../img/wall1.png);
-  background: 0;
+    //background: url(../img/wall1.png);
+    background: 0;
 
 }
