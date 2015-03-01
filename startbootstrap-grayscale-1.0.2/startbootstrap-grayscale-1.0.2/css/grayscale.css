@@ -10,8 +10,8 @@ body {
     font-family: 'Droid Serif', serif;
     color: #fff;
     background-color: #e3fdfa;
-    <!--background-color: #fff; c3fbf4-->
 }
+
 
 html {
     width: 100%;
@@ -38,7 +38,7 @@ h3 {
     //font-family: 'Homemade Apple', cursive;
     font-family: 'Pinyon Script', cursive;
     letter-spacing: 1px;
-    color: #B2B2B2;
+    color: #5b5b5b;
 }
 
 h1,
@@ -66,7 +66,7 @@ p {
 }
 
 a {
-    color: #219ab3;
+    color: #929292;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -75,7 +75,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #11505d;
+    color: #747474;
 }
 
 .light {
